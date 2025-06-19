@@ -1,0 +1,55 @@
+@font-face 
+{ 
+  font-family: "Glacial-Bold";
+  src: url("/storage/fonts/glacial-indifference.bold.otf")format("opentype");
+}
+
+@font-face 
+{ 
+  font-family: "Glacial-Regular";
+  src: url("/storage/fonts/glacial-indifference.regular.otf")format("opentype");
+}
+
+@font-face 
+{ 
+  font-family: "Buffalo-Inline";
+  src: url("/storage/fonts/BuffaloInline2Grunge.ttf")format("truetype");
+}
+
+@font-face 
+{ 
+  font-family: "PiecesOfEight";
+  src: url("/storage/fonts/PiecesofEight.ttf")format("truetype");
+}
+
+@font-face 
+{ 
+  font-family: "GoudyOldStyle";
+  src: url("/storage/fonts/GOUDOS.ttf")format("truetype");
+}
+
+h4.text-primary{
+  color: $primary-color !important;
+}
+
+.btn-primary{
+  background-color: $primary-color !important;
+  border: 1px solid $primary-color !important;
+}
+
+.btn-primary:hover{
+  background-color: $active-primary-color !important;
+  border: 1px solid $active-primary-color !important;
+}
+
+.btn-outline-primary{
+  background-color: white !important;
+  border: 1px solid white !important;
+  color: $primary-color !important;
+}
+
+.btn-outline-primary:hover{
+  background-color: $active-primary-color !important;
+  border: 1px solid $primary-color !important;
+  color: white !important;
+}
